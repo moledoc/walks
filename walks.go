@@ -16,6 +16,9 @@ import (
 // WaitGroup is a variable to easily handle goroutine waiting.
 var WaitGroup sync.WaitGroup
 
+// Search is a variable to hold expressions of directories and files to search.
+var Search *regexp.Regexp = regexp.MustCompile("")
+
 // Ignore is a variable to hold regexp expression of directories and files to ignore.
 var Ignore *regexp.Regexp = regexp.MustCompile("")
 
