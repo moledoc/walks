@@ -7,7 +7,7 @@ This is a simple Go package, that contains functions to walk directory structure
 To get this package, run the following command
 
 ```sh
-go get -v gitlab.com/utt_meelis/walks
+go get -v github.com/moledoc/walks
 ```
 
 ## Author
