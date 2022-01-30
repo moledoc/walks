@@ -1,3 +1,3 @@
-module gitlab.com/utt_meelis/walks
+module github.com/moledoc/walks
 
 go 1.16
